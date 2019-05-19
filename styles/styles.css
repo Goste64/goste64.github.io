@@ -1,0 +1,118 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+nav {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+#main-nav {
+  color: white;
+  font-family: "Metal Mania", cursive;
+  background-color: black;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: main-nav;
+  position: fixed;
+}
+
+#main-nav a {
+  margin: 0.5em;
+  padding: 0.5em;
+  display: inline-block;
+  width: 5em;
+  text-align: center;
+}
+
+#main-header {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: main;
+  text-align: center;
+}
+
+footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: footer;
+  height: 235px;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+}
+
+footer img:hover {
+  width: 40px;
+  height: 40px;
+}
+
+.maintext {
+  margin: 0.5em;
+  padding: 0.5em;
+  color: white;
+  font-family: "Metal Mania", cursive;
+  background-color: black;
+}
+
+header {
+  margin: 0.5em;
+  padding: 0.5em;
+  color: #1daadc;
+  font-family: "Metal Mania", cursive;
+}
+
+#container {
+  background-color: black;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: lfr;
+      grid-template-columns: lfr;
+      grid-template-areas: "main-nav" "main" "projects" "footer";
+  justify-items: center;
+}
+
+#main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: main;
+}
+
+#projects {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: projects;
+}
+
+#main-image {
+  margin: 0.5em;
+  padding: 0.5em;
+  color: white;
+  font-family: "Metal Mania", cursive;
+  top: 285px;
+  left: 20px;
+}
+
+a {
+  color: white;
+  font-family: "Metal Mania", cursive;
+}
+
+img {
+  margin: 0;
+  padding: 0.5em;
+}
+
+h1 {
+  color: #1daadc;
+}
+
+a:hover {
+  color: #1daadc;
+}
+
+#projects-nav a {
+  color: #1daadc;
+  font-family: "Metal Mania", cursive;
+}
+/*# sourceMappingURL=styles.css.map */

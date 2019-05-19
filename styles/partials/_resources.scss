@@ -1,0 +1,5 @@
+#projects-nav {
+	a {
+		@include font-settings($color: $secondary-font-color);
+	}
+}

@@ -1,0 +1,9 @@
+@mixin space($margin: 0.5em, $padding: 0.5em){
+    margin: $margin;
+    padding: $padding;
+    }
+    
+@mixin font-settings($color: $primary-font-color, $family: $primary-font-family) {
+        color: $color;
+        font-family: $family;
+    }
