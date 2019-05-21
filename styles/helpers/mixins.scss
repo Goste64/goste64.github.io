@@ -7,3 +7,9 @@
         color: $color;
         font-family: $family;
     }
+
+@mixin mobile {
+    @media screen and (max-width: 768px) {
+        @content;
+    }    
+}

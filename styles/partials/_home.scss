@@ -33,6 +33,7 @@ header {
 #main-image {
 	@include space();
     @include font-settings();
+    grid-area: mid-image;
     top: 285px;
     left: 20px;
 }
@@ -51,4 +52,14 @@ h1 {
 
 a:hover {
     color: rgb(29, 170, 220);
+}
+
+#filler {
+    background-color: black; 
+    width: 100%; 
+    height: 100px;
+    display: none;
+    @include mobile {
+        display: none;
+    }
 }
