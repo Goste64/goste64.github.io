@@ -16,13 +16,13 @@ My website is currently quite primitive, however it has links to some of my proj
 
 ### Sitemap 
 
-![Sitemap](../docs/images/sitemap.jpg)
+![Sitemap](./docs/images/sitemap.jpg)
 
 ### Screen shots
 
-![mobile](../docs/images/sitescreenshot2)
+![mobile](./docs/images/sitescreenshot2)
 
-![desktop](../docs/images/sitescreenshot1)
+![desktop](./docs/images/sitescreenshot1)
 
 ### Target audience
 
@@ -42,7 +42,7 @@ My design process for this was done mainly through wireframes, however as mentio
 
 Using a wire frame helped me design my website quite a bit, however due to some issues such as having no images to use, I ended up changing the design slightly. I hope to fix this in the future. I also didn't begin the desktop design and left it responsive to mobile.
 
-![Wire Frame](../docs/images/wireframe.jpg)
+![Wire Frame](./docs/images/wireframe.jpg)
 
 ### Usability considerations
 
@@ -54,11 +54,11 @@ I have tried to implement responsive design to include both desktop and mobile u
 
 I didn't find trello to be of much use during this solo web development project, however I have found it useful when using it for coding projects 
 
-![Trello board](../docs/images/trello.png)
+![Trello board](./docs/images/trello.png)
 
 ### Mood Board 
 
 I personally didn't find this very useful, but I did find some simularities between things I like and the fonts and color scheme after adding some images into the board.
 
-![Mood board](../docs/images/moodboard.png)
+![Mood board](./docs/images/moodboard.png)
 
