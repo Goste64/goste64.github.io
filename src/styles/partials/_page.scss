@@ -2,6 +2,11 @@ nav {
 	@include space();
 }
 
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
 #main-nav {
 	@include font-settings();
 	background-color: $primary-bgcolor;
